@@ -1,96 +1,175 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    color: #176B87;
-    text-decoration: none;
-    transition: 0.3s;
+/*----------------------------------NavBar--------------------*/
+
+a.navLink {
+  color: #176b87;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-a:hover{
-    opacity: 0.7;
+a.navLink:hover {
+  opacity: 0.7;
 }
 
-.logo{
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #176B87;
-    font-family: "Montserrat", sans-serif;
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #176b87;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
+.logo:hover {
+  opacity: 0.7;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #64ccc5;
+  height: 8vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #176b87;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #64ccc5;
+    flex-direction: column;
     align-items: center;
-    background-color: #64CCC5;
-    height: 8vh;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
 }
 
-.navList{
-    list-style: none;
-    display: flex;
-}
-
-.navList li{
-    letter-spacing: 3px;
-    margin-left: 32px;
-}
-
-.mobileMenu{
-    display: none;
-    cursor: pointer;
-}
-
-.mobileMenu div{
-    width: 32px;
-    height: 2px;
-    background: #176B87;
-    margin: 8px;
-}
-
-@media (max-width:999px) {
-    body{
-        overflow-x: hidden;
-    }
-
-    .navList{
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background-color: #64CCC5;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in; 
-    }
-
-    .navList li{
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    .mobileMenu{
-        display: block;
-    }
-}
-
-.navList.active{
-    transform: translateX(0);
+.nav-list.active {
+  transform: translateX(0);
 }
 
 @keyframes navLinkFade {
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        transform: translateX(0);
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/*------------------------------SectionAboutMe----------------------*/
+
+#aboutMe{
+    padding: 25px;
+    background-color: #64ccc5;
+}
+
+div.aboutMe {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tituloAboutMe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #176b87;
+  width: 10vw;
+  padding: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #dafffb;
+  text-transform: uppercase;
+}
+
+.conteudoAboutMe{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img.foto{
+    width: 35vw;
+}
+
+.texto{
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloDescricao{
+    font-size:40px;
+    letter-spacing: 4px;
+    color: #001C30;
+}
+
+.descricao{
+    font-size:30px;
+    letter-spacing: 2px;
+    margin-top: 10vh;
+    color: #FFFFFF;
+}
+
