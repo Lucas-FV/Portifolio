@@ -122,12 +122,12 @@ nav {
     background-color: #64ccc5;
 }
 
-div.aboutMe {
+div.section {
   display: flex;
   justify-content: space-around;
 }
 
-.tituloAboutMe {
+.tituloSection {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -171,5 +171,12 @@ img.foto{
     letter-spacing: 2px;
     margin-top: 10vh;
     color: #FFFFFF;
+}
+
+/*--------------------------Section Projects---------------------------*/
+
+#projects{
+  padding: 25px;
+  background-color: #001C30;
 }
 
