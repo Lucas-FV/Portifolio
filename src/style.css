@@ -127,12 +127,13 @@ padding: 25px;
 background-color: #001C30;
 }
 
-.slider{
+.slider1{
 margin: 0 auto;
 width: 800px;
 height: 400px;
 overflow: hidden;
 }
+
 
 .slides{
 width: 400%;
@@ -225,6 +226,40 @@ background-color: #fff;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
 background-color: #fff;
+}
+
+.container-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projeto-titulo h1{
+  margin-top: 25px;
+  background-color: #64ccc5;
+  padding: 10px;
+  border-radius: 25px;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+.projeto-descricao{
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+}
+
+.projeto-descricao h2{
+  font-size:30px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (max-width : 1366px){
