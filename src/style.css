@@ -64,178 +64,177 @@ nav {
 
 /*------------------------------SectionAboutMe----------------------*/
 
-#aboutMe{
+#aboutMe {
   padding: 25px;
   background-color: #64ccc5;
 }
 
 div.section {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .tituloSection {
-font-family: "Roboto", sans-serif;
-font-weight: 300;
-font-style: normal;
-display: flex;
-justify-content: space-around;
-align-items: center;
-background-color: #176b87;
-width: 10vw;
-padding: 5px;
-letter-spacing: 3px;
-margin-bottom: 10px;
-border-radius: 10px;
-color: #dafffb;
-text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #176b87;
+  width: 10vw;
+  padding: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #dafffb;
+  text-transform: uppercase;
 }
 
-.conteudoAboutMe{
+.conteudoAboutMe {
   padding: 25px;
   display: flex;
   justify-content: space-around;
 }
 
-img.foto{
+img.foto {
   width: 35vw;
 }
 
-.texto{
+.texto {
   max-width: 30vw;
   display: flex;
   flex-direction: column;
 }
 
-.tituloDescricao{
-  font-size:40px;
+.tituloDescricao {
+  font-size: 40px;
   letter-spacing: 4px;
-  color: #001C30;
+  color: #001c30;
 }
 
-.descricao{
-  font-size:30px;
+.descricao {
+  font-size: 30px;
   letter-spacing: 2px;
   margin-top: 10vh;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /*--------------------------Section Projects---------------------------*/
 
-#projects{
-padding: 25px;
-background-color: #001C30;
+#projects {
+  padding: 25px;
+  background-color: #001c30;
 }
 
-.slider1{
-margin: 0 auto;
-width: 800px;
-height: 400px;
-overflow: hidden;
+.slider1 {
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
 }
 
-
-.slides{
-width: 400%;
-height: 400px;
-display: flex;
+.slides {
+  width: 400%;
+  height: 400px;
+  display: flex;
 }
 
-.slides input{
-display: none;
+.slides input {
+  display: none;
 }
 
-.slide{
-transition: 2s;
-width: 25%;
-position: relative;
+.slide {
+  transition: 2s;
+  width: 25%;
+  position: relative;
 }
 
-.slide img{
-width: 800px;
+.slide img {
+  width: 800px;
 }
 
-.manual-navigation{
-position: absolute;
-width: 800px;
-margin-top: -40px;
-display: flex;
-justify-content: center;
+.manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
 }
 
-.manual-btn{
-border: 2px solid #fff;
-padding: 5px;
-border-radius: 10px;
-cursor: pointer;
-transition: 0.5s;
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.manual-btn:not(:last-child){
-margin-right: 30px;
+.manual-btn:not(:last-child) {
+  margin-right: 30px;
 }
 
-.manual-btn:hover{
-background-color: #fff;
+.manual-btn:hover {
+  background-color: #fff;
 }
 
-#radio1:checked ~ .first{
-margin-left: 0;
+#radio1:checked ~ .first {
+  margin-left: 0;
 }
 
-#radio2:checked ~ .first{
-margin-left: -25%;
+#radio2:checked ~ .first {
+  margin-left: -25%;
 }
 
-#radio3:checked ~ .first{
-margin-left: -50%;
+#radio3:checked ~ .first {
+  margin-left: -50%;
 }
 
-#radio4:checked ~ .first{
-margin-left: -75%;
+#radio4:checked ~ .first {
+  margin-left: -75%;
 }
 
-.navigation-auto div{
-border: 2px solid #176b87;
-padding: 5px;
-border-radius: 10px;
-cursor: pointer;
-transition: 0.5s;
+.navigation-auto div {
+  border: 2px solid #176b87;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.navigation-auto{
-position: absolute;
-width: 800px;
-margin-top: 360px;
-display: flex;
-justify-content: center;
+.navigation-auto {
+  position: absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
 }
 
-.navigation-auto div:not(:last-child){
-margin-right: 30px;
+.navigation-auto div:not(:last-child) {
+  margin-right: 30px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
-background-color: #fff;
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background-color: #fff;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
-background-color: #fff;
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background-color: #fff;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3{
-background-color: #fff;
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background-color: #fff;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4{
-background-color: #fff;
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background-color: #fff;
 }
 
-.container-desc{
+.container-desc {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.projeto-titulo h1{
+.projeto-titulo h1 {
   margin-top: 25px;
   background-color: #64ccc5;
   padding: 10px;
@@ -244,7 +243,7 @@ background-color: #fff;
   font-size: 40px;
 }
 
-.projeto-descricao{
+.projeto-descricao {
   padding: 35px 0;
   display: flex;
   justify-content: space-between;
@@ -252,146 +251,148 @@ background-color: #fff;
   width: 75vw;
 }
 
-.projeto-descricao h2{
-  font-size:30px;
+.projeto-descricao h2 {
+  font-size: 30px;
   letter-spacing: 2px;
   line-height: 35px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-@media (max-width : 1366px){
+@media (max-width: 1366px) {
+  /*------------------------------NavBar----------------------*/
 
-/*------------------------------NavBar----------------------*/  
+  a.navLink {
+    color: #176b87;
+    text-decoration: none;
+    transition: 0.3s;
+  }
 
-a.navLink {
-  color: #176b87;
-  text-decoration: none;
-  transition: 0.3s;
-}
+  a.navLink:hover {
+    opacity: 0.7;
+  }
 
-a.navLink:hover {
-  opacity: 0.7;
-}
+  .logo {
+    margin-top: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #176b87;
+    text-decoration: none;
+    transition: 0.3s;
+  }
 
-.logo {
-  margin-top: 5px;
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #176b87;
-  text-decoration: none;
-  transition: 0.3s;
-}
+  .logo:hover {
+    opacity: 0.7;
+  }
 
-.logo:hover {
-  opacity: 0.7;
-}
+  nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #64ccc5;
+    height: 8vh;
+  }
 
-nav {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: #64ccc5;
-  height: 8vh;
-}
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
 
-.nav-list {
-  list-style: none;
-  display: flex;
-}
+  .nav-list li {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
 
-.nav-list li {
-  margin-top: 5px;
-  font-size: 20px;
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
 
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #176b87;
+    margin: 8px;
+    transition: 0.3s;
+  }
 
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #176b87;
-  margin: 8px;
-  transition: 0.3s;
-}
-  
-/*------------------------------SectionAboutMe----------------------*/
+  /*------------------------------SectionAboutMe----------------------*/
 
-
-  #aboutMe{
+  #aboutMe {
     padding: 30px;
     background-color: #64ccc5;
   }
-  
+
   div.section {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
   }
-  
+
   .tituloSection {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #176b87;
-  width: 15vw;
-  padding: 5px;
-  letter-spacing: 3px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  color: #dafffb;
-  text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #176b87;
+    width: 15vw;
+    padding: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #dafffb;
+    text-transform: uppercase;
   }
-  
-  .conteudoAboutMe{
+
+  .conteudoAboutMe {
     padding: 25px;
     display: flex;
     justify-content: space-around;
   }
-  
-  img.foto{
+
+  img.foto {
     padding: 15vh;
     width: 40vw;
   }
-  
-  .texto{
+
+  .texto {
     max-width: 30vw;
     display: flex;
     flex-direction: column;
   }
-  
-  .tituloDescricao{
-    font-size:40px;
+
+  .tituloDescricao {
+    font-size: 40px;
     letter-spacing: 4px;
-    color: #001C30;
+    color: #001c30;
   }
-  
-  .descricao{
-    font-size:25px;
+
+  .descricao {
+    font-size: 25px;
     letter-spacing: 2px;
     margin-top: 10vh;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-
 }
 
-@media (max-width: 999px) {
+/*-------------------------------CELULAR/Sansung----------------------------------*/
+
+@media (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
+
+  /*-----------------------------NAVBAR------------------------------------*/
+
   .nav-list {
     position: absolute;
     top: 8vh;
@@ -412,7 +413,58 @@ nav {
   .mobile-menu {
     display: block;
   }
+
+  nav {
+    padding: 10px;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  /*------------------------------------ABOUTME-----------------------------*/
+
+  .tituloSection {
+    width: 75vw;
+    height: 5vh;
+  }
+
+  .titulo {
+    font-size: 30px;
+  }
+
+  .conteudoAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img.foto {
+    padding: 7vw;
+    width: 75vw;
+  }
+
+  .texto {
+    width: 75vw;
+  }
+
+  .tituloDescricao {
+    align-self: center;
+    width: 75vw;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .descricao {
+    align-self: center;
+    width: 75vw;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3vh;
+  }
 }
+
+/*---------------------------KEYFRAMES-----------------------------*/
 
 .nav-list.active {
   transform: translateX(0);
@@ -440,6 +492,3 @@ nav {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-
-
-
